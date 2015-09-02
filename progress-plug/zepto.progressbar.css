@@ -1,0 +1,61 @@
+.circle{
+    width: 3.5em;
+    height: 3.5em;
+    position: relative;
+}
+.left-pie,.left{
+    width: 100%;
+    height: 100%;
+    clip: rect(0,1.75em,auto,0);
+    position: absolute;
+}
+.left-pie{
+    background: #e74c3c;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -ms-transform:rotate(0deg);
+    -o-transform:rotate(0deg);
+}
+.left{
+    background: #9BCD9B;
+    border-radius: 50%;
+    -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -ms-transform:rotate(0deg);
+    -o-transform:rotate(0deg);
+    transform:rotate(0deg);
+}
+.right-pie,.right{
+    width: 100%;
+    height: 100%;
+    clip: rect(0,1.75em,auto,0);
+    position: absolute;
+}
+.right-pie{
+    background: #9BCD9B;
+    border-radius: 50%;
+    transform: rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+}
+.right{
+    background: #e74c3c;
+    border-radius: 50%;
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+.mask{
+    position: absolute;
+    margin: 5%;
+    width: 90%;
+    height: 90%;
+    background: #9BCD9B;
+    border-radius: 50%;
+}
